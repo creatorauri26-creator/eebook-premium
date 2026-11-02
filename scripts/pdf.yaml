@@ -1,0 +1,22 @@
+from: markdown
+standalone: true
+pdf-engine: xelatex
+table-of-contents: true
+toc-depth: 2
+number-sections: true
+resource-path: [".", "imagens"]
+metadata:
+  lang: pt-BR
+  toc-title: Sumário
+variables:
+  documentclass: book
+  classoption: [oneside, openany]
+  papersize: a5
+  fontsize: 11pt
+  geometry: [top=22mm, bottom=22mm, left=20mm, right=18mm]
+  mainfont: Latin Modern Roman
+  sansfont: Latin Modern Sans
+  monofont: Latin Modern Mono
+  colorlinks: true
+  linkcolor: black
+  urlcolor: blue
